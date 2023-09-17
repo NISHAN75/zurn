@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 
-
-body{
-  font-family: 'Lato', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
 
-
 /* base css */
-.container{
+.container {
   max-width: 1700px;
 }
 
@@ -21,8 +19,6 @@ style summery
 2.
 ---------------- */
 
-
-
 /* ==================
 header area design start
 ========================= */
@@ -31,17 +27,17 @@ header area design end
 ========================= */
 .header-area {
   position: fixed;
-  z-index: 9;
+  z-index: 2;
   width: 100%;
   margin-top: 30px;
 }
-.video-area{
+.video-area {
   z-index: 2;
   height: auto;
   width: 100%;
 }
 .overlay {
-  background: #11305A;
+  background: #11305a;
   position: absolute;
   top: 0;
   height: 99.5%;
@@ -57,23 +53,106 @@ header area design end
   margin-left: 63px;
 }
 .nav-link {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 24px;
   font-weight: 700;
   margin-right: 47px;
   transition: 0.3s;
 }
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show , .nav-link:hover {
-  color: #4CA1BF;
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.nav-link:hover {
+  color: #4ca1bf;
   text-decoration: underline;
 }
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-  color: #4CA1BF;
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #4ca1bf;
   text-decoration: underline;
 }
+
+/* dropdown manu */
+.dropdown-main-manu {
+  display: inline-block;
+
+}
+.dropdown-list{
+  display: none;
+  position: absolute;
+  top: -30px;
+  background: #fff;
+  width: 100%;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  transition: 0.5s ease;
+  z-index: 99;
+}
+.dropdown-main-manu:hover  .dropdown-list{
+  display: block;
+}
+
+.dropdown-main-manu:hover .dropdown-list .nav-link {
+  color: #11305A;
+  font-size: 20px;
+  font-weight: 400;
+}
+.dropdown-main-manu:hover .dropdown-list .navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show , .dropdown-main-manu:hover .dropdown-list .nav-link:hover {
+  color: #4ca1bf;
+  text-decoration: underline;
+}
+.dropdown-main-manu:hover .dropdown-list .navbar{
+  padding-top: 56px;
+  margin-bottom: 49px;
+}
+.dropdown-main-manu:hover .dropdown-list  .dropdown-heading{
+  color: #11305A;
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 21px;
+}
+.dropdown-main-manu:hover .dropdown-list  .dropdown-item{
+  margin-bottom: 15px;
+} 
+.dropdown-main-manu:hover .dropdown-list  .dropdown-link{
+  color: #11305A;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+} 
+
+.dropdown-main-manu:hover .dropdown-list  .dropdown-link:hover{
+  color: #4CA1BF;
+  font-size: 19px;
+  font-weight: 500;
+}
+.dropdown-main-manu:hover .dropdown-list .dropdown-contact-area{
+  background-color: #11305A;
+  width: 115%;
+  height: 900px;
+  padding-top: 105px;
+}
+.dropdown-main-manu:hover .dropdown-list .dropdown-contact-area img{
+  margin-bottom: 52pxm;
+}
+.contact-number {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 54px;
+}
+
+.contact-link {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #fff;
+}
+
 /* btn */
 .btn-one {
-  background: #4CA1BF;
+  background: #4ca1bf;
   color: #fff;
   padding: 20px 50px;
   border-radius: 36px;
@@ -86,13 +165,16 @@ header area design end
   border-radius: 36px;
   color: #fff;
 }
+a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
+  font-size: 50px;
+}
 
 /* banner area design start */
 .banner-content-area {
   position: absolute;
   bottom: 78px;
   width: 100%;
-  z-index: 3;
+  z-index: 1;
 }
 .palay-icon {
   position: relative;
