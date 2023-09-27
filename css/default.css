@@ -3,6 +3,9 @@ img{
     max-width: 100%;
     height: auto;
 }
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
 
 
 /* position-relative */
@@ -137,6 +140,9 @@ ul{
 .mb-15{
     margin-bottom: 15px;
 }
+.mb-18{
+    margin-bottom: 18px;
+}
 .mb-20{
     margin-bottom: 20px;
 }
@@ -178,6 +184,12 @@ ul{
 .mt-40{
     margin-top: 40px;
 }
+.mt-50{
+    margin-top: 50px;
+}
+.mt-70{
+    margin-top: 70px;
+}
 .mt-80{
     margin-top: 80px;
 }
@@ -195,4 +207,13 @@ ul{
 .f-right{
     float: right;
     
+}
+
+
+/* section-padding */
+.section-padding{
+    padding: 150px 0;
+}
+.section-padding-md{
+    padding: 180px 0;
 }

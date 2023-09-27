@@ -1,0 +1,155 @@
+/* header area design */
+.header-area {
+  position: static;
+  margin-top: 0;
+  background: #fff;
+}
+.nav-link {
+  color: #11305A;
+}
+
+/* banner area design */
+.banner-area-2 img {
+  width: 100%;
+}
+.banner-border-bg {
+  background: #4CA1BF;
+  height: 15px;
+  opacity: 0.7;
+}
+.banner-img{
+  position: relative;
+}
+.banner-img::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #11305A;
+  content: "";
+  opacity: 0.7;
+}
+.banner-area-2 .inner-caption {
+  position: absolute;
+  bottom: 40px;
+  font-size: 65px;
+  font-weight: 700;
+  color: #fff;
+}
+/* about area */
+.div-bg {
+  height: 633px;
+}
+.div-bg-2 {
+  position: absolute;
+  width: 627px;
+  height: 556px;
+  background: #BFDBE8;
+  top: -30px;
+  left: -4%;
+  z-index: -1;
+  opacity: 0.5;
+}
+.zurn-head {
+  font-size: 35px;
+  font-weight: 500;
+  color: #11305A;
+  margin-bottom: 20px;
+}
+.inner-contnet p {
+  margin-bottom: 18px;
+  color: #11305A;
+}
+
+/* =================
+new css
+===================== */
+/* corresponding-area */
+.corresponding-item {
+  border-top: 1px solid #11305A;
+  padding: 20px;
+  transition: 0.3s;
+}
+.li-name {
+  font-size: 40px;
+  font-weight: 500;
+  color: #11305A;
+  transition: 0.3s;
+ 
+}
+.li-number {
+  font-size: 20px;
+  font-weight: 500;
+  color: #4CA1BF;
+  margin-right: -37%;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.corresponding-item .li-icon img{
+  transition: 0.3s;
+}
+.corresponding-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.corresponding-item:last-child{
+  border-bottom: 1px solid #11305A;
+}
+li.corresponding-item:hover .li-name {
+  color: #4CA1BF;
+}
+li.corresponding-item:hover .li-number {
+  opacity: 1;
+}
+li.corresponding-item:hover .li-icon img {
+  transform: rotate(-45deg);
+}
+.corresponding-bg{
+  background-color: #F6FAFC;
+  border-radius: 150px 150px 0 0;
+}
+
+/* about-content */
+.inner-contnet ul {
+  list-style: disc;
+}
+.inner-content-info {
+  display: flex;
+  margin: 22px;
+}
+ul.p-list-2 {
+  margin-left: 180px;
+}
+.inner-content-info ul li::marker {
+  color: #4CA1BF;
+}
+.p-list li , .p-list-2 li , .p-list-3 li , .p-heading {
+  font-size: 19px;
+  font-weight: 500;
+  color: #11305A;
+  margin: 10px 0;
+}
+.p-heading{
+  margin-left: -20px;
+  margin-bottom: 15px;
+}
+.zurn-small-caption {
+  font-size: 20px;
+  font-weight: 700;
+  color: #11305A;
+  margin-bottom: 12px;
+}
+.about-info .zurn-para {
+  font-size: 16px;
+  font-weight: 500;
+  color: #11305A;
+  opacity: 70%;
+}
+
+/* cta area design start */
+.plumbing-about-content .inner-caption {
+  color: #fff;
+}
+/* cta area design end */

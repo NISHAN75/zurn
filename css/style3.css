@@ -1,0 +1,57 @@
+
+/* cta area design */
+.cta-area .p-list li, .cta-area .p-list-2 li {
+  color: #fff;
+}
+.cta-area  ul {
+  list-style: disc;
+}
+.cta-area {
+  position: relative;
+}
+.cta-area::before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: url(../img/plumbingRepair/c-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+/* about area design */
+.plumbing-about-content .inner-caption {
+  color: #11305A;
+}
+.plumbing-about-content .inner-contnet p {
+  margin-bottom: 50px;
+  color: #11305A;
+}
+
+/* ==========
+water section area design
+================
+ */
+
+ .water-heaters .inner-content-info {
+  display: block;
+  margin: 0 22px;
+}
+.water-heaters .p-list {
+  margin-bottom: 40px;
+}
+.list-two {
+ 
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.water-heaters  ul.p-list-2 {
+  margin-left: 0;
+}
+.water-heaters ul.p-list-3 {
+  margin-left: 60px;
+}
