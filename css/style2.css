@@ -55,7 +55,7 @@
   font-size: 35px;
   font-weight: 500;
   color: #11305A;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 .inner-contnet p {
   margin-bottom: 18px;
@@ -75,30 +75,29 @@ new css
   font-size: 40px;
   font-weight: 500;
   color: #11305A;
+  text-align: left;
+  margin: 0px 70px;
   transition: 0.3s;
- 
 }
 .li-number {
   font-size: 20px;
   font-weight: 500;
   color: #4CA1BF;
-  margin-right: -37%;
   opacity: 0.5;
   transition: 0.3s;
 }
+.li-icon {
+  float: right;
+}
 .corresponding-item .li-icon img{
   transition: 0.3s;
-}
-.corresponding-link {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .corresponding-item:last-child{
   border-bottom: 1px solid #11305A;
 }
 li.corresponding-item:hover .li-name {
   color: #4CA1BF;
+  margin: 0px 110px;
 }
 li.corresponding-item:hover .li-number {
   opacity: 1;
@@ -118,6 +117,9 @@ li.corresponding-item:hover .li-icon img {
 .inner-content-info {
   display: flex;
   margin: 22px;
+}
+.inner-contnet.pumps-ul .inner-content-info {
+  display: block;
 }
 ul.p-list-2 {
   margin-left: 180px;
