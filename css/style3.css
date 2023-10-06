@@ -3,11 +3,22 @@
 .cta-area .p-list li, .cta-area .p-list-2 li {
   color: #fff;
 }
-.cta-area  ul {
+.cta-area  ul , .cta-area-2 ul , .contact-form-area ul {
   list-style: disc;
 }
 .cta-area {
   position: relative;
+}
+.cta-area-2 .inner-caption {
+  color: #11305A;
+}
+.cta-area-2 .cta-content {
+  padding: 137px 0;
+}
+.cta-area-2 .map-area {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .cta-area::before {
   position: absolute;
@@ -59,4 +70,50 @@ water section area design
 /*  hydro-jetting  page section design */
 .hydro-jetting .zurn-head {
   margin-bottom: 50px;
+}
+/* album area design start */
+.album-info {
+  margin-top: 30px;
+}
+.album-info h5 {
+  font-size: 35px;
+  font-weight: 500;
+  color: #11305A;
+  margin-bottom: 20px;
+}
+/* pageinition design */
+.page-link {
+  border: none;
+  background: #F6FAFC;
+  margin-right: 5px;
+  font-size: 17px;
+  font-weight: 900;
+  color: #707070;
+  transition: 0.3s;
+}
+.page-link:hover {
+  background: #F3F3F2;
+  color: #4CA1BF;
+}
+.page-head {
+  font-size: 18px;
+  font-weight: 900;
+  color: #2C5168;
+  text-transform: uppercase;
+}
+.back-btn {
+  font-size: 18px;
+  font-weight: 500;
+  color: #11305A;
+}
+/* blog details deesign */
+.blog-details-content h5 {
+  font-size: 28px;
+  color: #11305A;
+}
+.blog-inner-info h6 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #11305A;
+  margin-bottom: 17px;
 }
