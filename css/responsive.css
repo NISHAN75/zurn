@@ -6,16 +6,87 @@
 
 } */
 
+
 /* Medium Layout: 1280px. */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  
+@media only screen and (min-width: 1250px) and (max-width: 1450px) {
+
+  .nav-link {
+
+    font-size: 20px;
+    margin-right: 25px;
+
 }
+
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 1130px) and (max-width: 1249px) {
+  .nav-link {
+   
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+   
+}
+.banner-info h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 991px) and (max-width: 1129px) {
+  .nav-link {
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.banner-info h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+}
+
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-info h1 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .banner-info {
+    color: #fff;
+    font-size: 14px;
+}
+.btn-one-v2 {
+  font-size: 16px;
+  padding: 15px 40px;
+
+}
+.inner-caption {
+  font-size: 45px;
+  font-weight: 500;
+  color: #11305A;
+  line-height: 64px;
+  margin-bottom: 20px;
+}
+.navbar-brand img {
+  max-width: 120px;
+  height: auto;
+}
+.section-padding {
+  padding: 80px 0;
+}
+.inner-para, .about-info .inner-contnet .inner-para {
+  font-size: 16px;
+  
+}
+.about-content {
+  margin-bottom: 50px;
+}
 }
 /* Tablet & Mobile Layout: 991px. Only for desktop and tablet */
 @media only screen and (min-width: 991px) {
- 
 
 }
 @media only screen and (max-width: 767px) {

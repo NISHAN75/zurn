@@ -1,14 +1,119 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 
+
+
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * museo-sans:
+ *   - http://typekit.com/eulas/00000000000000000000e7fe
+ *   - http://typekit.com/eulas/00000000000000000000e802
+ *   - http://typekit.com/eulas/00000000000000000000e803
+ *   - http://typekit.com/eulas/00000000000000000000e804
+ *   - http://typekit.com/eulas/00000000000000000000e805
+ *   - http://typekit.com/eulas/00000000000000000000e806
+ *   - http://typekit.com/eulas/00000000000000000000e807
+ *   - http://typekit.com/eulas/00000000000000000000e808
+ * myriad-pro:
+ *   - http://typekit.com/eulas/00000000000000000001709c
+ *   - http://typekit.com/eulas/00000000000000000001709d
+ *
+ * © 2009-2023 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2023-08-21 19:17:57 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=rxh8lll&ht=tk&f=2005.2006.2007.2008.2009.2010.2011.2012.6852.6853&a=537725&app=typekit&e=css");
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/c2d3de/00000000000000000000e804/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff2"),url("https://use.typekit.net/af/c2d3de/00000000000000000000e804/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff"),url("https://use.typekit.net/af/c2d3de/00000000000000000000e804/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:900;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/27c143/00000000000000000000e808/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff2"),url("https://use.typekit.net/af/27c143/00000000000000000000e808/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff"),url("https://use.typekit.net/af/27c143/00000000000000000000e808/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:900;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-pro";
+src:url("https://use.typekit.net/af/80c5d0/00000000000000000001709c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/80c5d0/00000000000000000001709c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/80c5d0/00000000000000000001709c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-pro";
+src:url("https://use.typekit.net/af/d50a1b/00000000000000000001709d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff2"),url("https://use.typekit.net/af/d50a1b/00000000000000000001709d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff"),url("https://use.typekit.net/af/d50a1b/00000000000000000001709d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:600;font-stretch:normal;
+}
+
+.tk-museo-sans { font-family: "museo-sans",sans-serif; }
+.tk-myriad-pro { font-family: "myriad-pro",sans-serif; }
 body {
-  font-family: "Lato", sans-serif;
-  font-size: 18px;
+  font-family:"museo-sans";
+  font-size: 19px;
   font-weight: 500;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+  color: #11305A;
 }
 
 /* base css */
-.container{
-  max-width: 1700px;
+.container {
+  max-width: 1441px;
+  padding: 0;
+}
+.container-fluid {
+  max-width: 100%;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.w-one {
+  max-width: 631px;
+  height: 491px;
 }
 /* section background-color */
 .bg-freesh{
@@ -41,13 +146,13 @@ header area design end
 ========================= */
 .header-area {
   position: absolute;
-  z-index: 2;
+  z-index: 5;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 57px;
 }
 
 .video-area {
-  z-index: 2;
+  z-index: -1;
   height: auto;
   width: 100%;
 }
@@ -55,13 +160,13 @@ header area design end
   background: #11305a;
   position: absolute;
   top: 0;
-  height: 99.5%;
+  height: 100%;
   width: 100%;
   z-index: 1;
   opacity: 0.5;
 }
 .navbar-brand img {
-  width: 215px;
+  max-width: 215px;
   height: 105px;
 }
 .navbar-nav {
@@ -91,15 +196,16 @@ header area design end
   display: inline-block;
 
 }
-.dropdown-list{
+
+.dropdown-list {
   display: none;
   position: absolute;
-  top: -30px;
+  top: -60px;
   background: #fff;
   width: 100%;
   left: 0;
-  width: 100%;
-  height: 900px;
+  max-width: 100%;
+  height: 766px;
   transition: 0.5s ease;
   z-index: 99;
 }
@@ -109,8 +215,8 @@ header area design end
 
 .dropdown-main-manu:hover .dropdown-list .nav-link {
   color: #11305A;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 700;
 }
 .dropdown-main-manu:hover .dropdown-list .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show , .dropdown-main-manu:hover .dropdown-list .nav-link:hover {
@@ -122,6 +228,7 @@ header area design end
   margin-bottom: 49px;
 }
 .dropdown-main-manu:hover .dropdown-list  .dropdown-heading{
+  display: inline-block;
   color: #11305A;
   font-size: 22px;
   font-weight: 900;
@@ -132,7 +239,7 @@ header area design end
 } 
 .dropdown-main-manu:hover .dropdown-list  .dropdown-link{
   color: #11305A;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
   transition: 0.3s;
 } 
@@ -142,11 +249,12 @@ header area design end
   font-size: 19px;
   font-weight: 500;
 }
-.dropdown-main-manu:hover .dropdown-list .dropdown-contact-area{
+.dropdown-main-manu:hover .dropdown-list .dropdown-contact-area {
   background-color: #11305A;
-  width: 115%;
-  height: 900px;
-  padding-top: 105px;
+  width: 472px;
+  height: 766px;
+  padding-top: 73px;
+  float: right;
 }
 .dropdown-main-manu:hover .dropdown-list .dropdown-contact-area img{
   margin-bottom: 52pxm;
@@ -163,6 +271,10 @@ header area design end
   font-weight: 700;
   text-decoration: underline;
   color: #fff;
+}
+
+.dropdown-contact-area p {
+  margin-bottom: 13px;
 }
 
 /* magnific popup css start */
@@ -198,15 +310,20 @@ header area design end
 
 /* btn */
 .btn-one {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 900;
+  width: 230px;
+  height: 72px;
   background: #4ca1bf;
   color: #fff;
-  padding: 20px 50px;
-  border-radius: 36px;
-  max-width: 230px;
+  padding: 24px 22px 21px 22px;
   transition: 0.3s;
-  font-size: 20px;
-  font-weight: 700;
+  text-align: center;
+  border-radius: 50px;
+  
 }
+
 .btn-one-v2 {
   font-size: 20px;
   font-weight: 700;
@@ -219,19 +336,24 @@ header area design end
   
 }
 .btn-three {
-  border: 3px solid #4CA1BF;
-  padding: 21px 57px 21px;
+  display: inline-block;
+  border: 2px solid #4CA1BF;
+  padding: 23px 37px 22px 37px;
   border-radius: 50px;
   font-size: 20px;
   font-weight: 500;
   color: #4CA1BF;
   transition: 0.3s;
+  min-width: 274px;
+  min-height: 72px;
+  text-align: center;
 }
 .btn-one-v2:hover {
   background-color: #fff;
   color: #11305A;
 }
 .btn-four {
+  display: inline-block;
   font-size: 20px;
   font-weight: 700;
   color: #4CA1BF;
@@ -241,11 +363,17 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
 }
 
 /* banner area design start */
+
+.video-content img {
+  width: 100%;
+  height: 900px;
+}
+
 .banner-content-area {
   position: absolute;
-  bottom: 78px;
   width: 100%;
   z-index: 1;
+  bottom: 62px;
 }
 .palay-icon {
   position: relative;
@@ -270,11 +398,12 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
 .banner-info {
   color: #fff;
   font-size: 22px;
+  padding-bottom: 60px;
 }
 .banner-info h1 {
   font-size: 65px;
-  font-weight: 500;
-  margin-bottom: 10px;
+  font-weight: 700;
+  margin-bottom: 9px;
 }
 .banner-info p {
   margin-bottom: 60px;
@@ -289,13 +418,15 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
 }
 .about-inner-bg-1::after {
   position: absolute;
+  top: -32px;
   left: 35px;
-  width: 627px;
-  height: 566px;
+  min-width: 627px;
+  min-height: 556px;
   background: #BFDBE8;
+  opacity: 0.5;
   content: "";
   z-index: -1;
-  top: -40px;
+  
 }
 .about-inner-bg-2::after {
   position: absolute;
@@ -321,14 +452,14 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
   font-size: 16px;
   font-weight: 700;
   color: #4CA1BF;
-  margin-bottom: 20px; 
+  margin-bottom: 9px;
 }
 .inner-caption {
   font-size: 60px;
-  font-weight: 500;
+  font-weight: 700;
   color: #11305A;
-  line-height: 64px;
-  margin-bottom: 20px;
+  line-height: 68px;
+  margin-bottom: 15px;
 }
 
 .cta-content .inner-caption {
@@ -366,12 +497,10 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
   position: absolute;
   bottom: 0;
 } */
-.inner-para , .about-info .inner-contnet .inner-para {
-  font-size: 19px;
-  font-weight: 500;
-  line-height: 35px;
-  margin-bottom: 10px;
-  color: #11305A;
+.inner-para , .about-info .inner-contnet .inner-para , .pipes-info p, .pipes-info ul li {
+
+  line-height: 29px;
+
 }
 
 
@@ -473,10 +602,9 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 10px;
+  line-height: 25px;
 }
 .card-content p {
-  font-size: 19px;
-  font-weight: 500;
   opacity: 0.8;
 }
 .crad-img-area {
@@ -556,14 +684,8 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
 /* story area design */
 
 /* pipes area design start */
-.pipes-info p , .pipes-info ul li {
-  font-size: 19px;
-  color: #11305A;
-  font-weight: 500;
-}
-.pipes-info ul {
-  margin-bottom: 60px;
-}
+
+
 /* pipes area design end */
 
 
@@ -572,12 +694,16 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
 
 /* footer area design start */
 .footer-area {
-  padding-bottom: 40px;
+  padding-bottom: 75px;
 }
 .footer-contact-number {
   font-size: 40px;
-  color: #5DC9EF;
+  color: rgb(93, 201, 239);
   font-weight: 700;
+  margin-bottom: 24px;
+}
+.footer-subscibe .small-caption {
+  font-size: 19px;
 }
 .footer-address-content address {
   font-size: 19px;
@@ -600,17 +726,20 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
 }
 .input-area ::placeholder {
   color: #F0F7F8;
-  opacity: 0.7;
+  opacity: 0.5;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 500;
 }
-
+.f-item {
+  margin-bottom: 26px;
+}
 .input-area input[type="email"] {
-  width: 480px;
-  height: 60px;
+  min-width: 480px;
+  min-height: 57px;
   background: #11305A;
-  padding: 20px 50px;
-  border: 2px solid #F0F7F8;
+  color: #F0F7F8;
+  padding: 17px 28px;
+  border: 1px solid #F0F7F8;
   border-radius: 50px;
   opacity: 0.7;
   color: #F0F7F8;
@@ -618,12 +747,11 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
 }
 .submit-icon {
   position: absolute;
-  top: 15px;
   right: 30px;
 }
 .bg-border {
   background: #fff;
-  height: 3px;
+  height: 1px;
   margin: 60px 0;
   opacity: 0.7;
 }
