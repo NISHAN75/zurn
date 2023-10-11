@@ -34,8 +34,8 @@
   position: absolute;
   bottom: 40px;
   font-size: 65px;
-  font-weight: 700;
   color: #fff;
+  line-height: 68px;
 }
 /* about area */
 .div-bg {
@@ -53,8 +53,7 @@
 }
 .zurn-head {
   font-size: 35px;
-  font-weight: 500;
-  color: #11305A;
+  font-weight: 700;
   margin-bottom: 12px;
 }
 .inner-contnet p {
@@ -68,8 +67,12 @@ new css
 /* corresponding-area */
 .corresponding-item {
   border-top: 1px solid #11305A;
-  padding: 20px;
   transition: 0.3s;
+  padding-top: 27px;
+  padding-bottom: 22px;
+}
+.corresponding-item:first-child{
+  padding-top: 37px;
 }
 .li-name {
   font-size: 40px;
@@ -117,6 +120,8 @@ li.corresponding-item:hover .li-icon img {
 .inner-content-info {
   display: flex;
   margin: 22px;
+  margin-top: 12px;
+  margin-bottom: 18px;
 }
 .inner-contnet.pumps-ul .inner-content-info {
   display: block;
@@ -138,9 +143,8 @@ ul.p-list-2 {
   margin-bottom: 15px;
 }
 .zurn-small-caption {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
-  color: #11305A;
   margin-bottom: 12px;
 }
 .about-info .zurn-para {
@@ -148,6 +152,7 @@ ul.p-list-2 {
   font-weight: 500;
   color: #11305A;
   opacity: 70%;
+  line-height: 21px;
 }
 
 /* cta area design start */

@@ -3,6 +3,9 @@
 .section-padding{
     padding: 145px 0;
 }
+.cta-padding{
+    padding: 68px 0;
+}
 .section-padding-md{
     padding: 180px 0;
 }
@@ -199,6 +202,9 @@ ul{
 }
 .mt-30{
     margin-top: 30px;
+}
+.mt-32{
+    margin-top: 32px;
 }
 .mt-35{
     margin-top: 35px;
