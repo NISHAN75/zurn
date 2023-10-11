@@ -112,8 +112,8 @@ p{
 }
 
 .w-one {
-  max-width: 631px;
-  height: 491px;
+  min-width: 631px;
+  min-height: 491px;
 }
 .w-two {
   min-width: 621px;
@@ -220,6 +220,9 @@ header area design end
   transition: 0.5s ease;
   z-index: 99;
 }
+.dropdown-list.top-0 {
+  top: 0;
+}
 .dropdown-main-manu:hover  .dropdown-list{
   display: block;
 }
@@ -324,8 +327,8 @@ header area design end
   display: inline-block;
   font-size: 20px;
   font-weight: 900;
-  width: 230px;
-  height: 72px;
+  min-width: 230px;
+  min-height: 72px;
   background: #4ca1bf;
   color: #fff;
   padding: 24px 22px 21px 22px;
@@ -369,6 +372,10 @@ header area design end
   font-weight: 700;
   color: #4CA1BF;
 }
+section.about-info.w-btn-2 .btn-three {
+  min-width: 231px;
+}
+
 a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
   font-size: 50px;
 }
@@ -429,6 +436,9 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
 }
 .Financing-content .btn-three{
    min-width: 197px;
+}
+.about-content.plumbing-about-content.Financing-content .inner-caption {
+  margin-bottom: 23px;
 }
 .about-inner-bg-1::after {
   position: absolute;

@@ -57,7 +57,6 @@
   margin-bottom: 12px;
 }
 .inner-contnet p {
-  margin-bottom: 18px;
   color: #11305A;
 }
 
@@ -118,6 +117,7 @@ li.corresponding-item:hover .li-icon img {
   list-style: disc;
 }
 .inner-content-info {
+
   display: flex;
   margin: 22px;
   margin-top: 12px;
@@ -136,11 +136,11 @@ ul.p-list-2 {
   font-size: 19px;
   font-weight: 500;
   color: #11305A;
-  margin: 10px 0;
+  margin: 0;
 }
-.p-heading{
+.p-heading {
   margin-left: -20px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 .zurn-small-caption {
   font-size: 19px;
