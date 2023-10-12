@@ -372,8 +372,11 @@ header area design end
   font-weight: 700;
   color: #4CA1BF;
 }
-section.about-info.w-btn-2 .btn-three {
+.w-btn-2 .btn-three {
   min-width: 231px;
+}
+.w-btn-3 .btn-three {
+  min-width: 240px;
 }
 
 a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
@@ -493,6 +496,9 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
 }
 .cta-4 .inner-caption , .cta-4 .inner-para{
   color: #fff;
+}
+.cta-area-2 .cta-content {
+  padding: 133px 100px;
 }
 .img-one {
   position: absolute;
