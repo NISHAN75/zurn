@@ -70,6 +70,9 @@ new css
   padding-top: 27px;
   padding-bottom: 22px;
 }
+.correspond-2 .corresponding-item:first-child{
+  padding-top: 27px;
+}
 .corresponding-item:first-child{
   padding-top: 37px;
 }
@@ -77,8 +80,7 @@ new css
   font-size: 40px;
   font-weight: 500;
   color: #11305A;
-  text-align: left;
-  margin: 0px 70px;
+  padding-left: 69px;
   transition: 0.3s;
 }
 .li-number {
@@ -97,9 +99,10 @@ new css
 .corresponding-item:last-child{
   border-bottom: 1px solid #11305A;
 }
-li.corresponding-item:hover .li-name {
+.corresponding-item:hover .li-name {
   color: #4CA1BF;
-  margin: 0px 110px;
+  font-weight: 700;
+  padding-left: 110px;
 }
 li.corresponding-item:hover .li-number {
   opacity: 1;
@@ -107,9 +110,18 @@ li.corresponding-item:hover .li-number {
 li.corresponding-item:hover .li-icon img {
   transform: rotate(-45deg);
 }
-.corresponding-bg , .album-bg{
+
+.corresponding-bg, .album-bg {
   background-color: #F6FAFC;
   border-radius: 150px 150px 0 0;
+  padding: 117px 0;
+}
+.commercialPlumbing-img {
+  min-width: 602px;
+  min-height: 554px;
+}
+.corresponding-list {
+  min-width: 720px;
 }
 
 /* about-content */
@@ -154,7 +166,15 @@ ul.p-list-2 {
   opacity: 70%;
   line-height: 21px;
 }
-
+.zurn-head.mb-22 {
+  margin-bottom: 22px;
+}
+.zurn-head.mb-58 {
+  margin-bottom: 58px;
+}
+h5.zurn-head.mb-17 {
+  margin-bottom: 17px;
+}
 /* cta area design start */
 .plumbing-about-content .inner-caption {
   color: #fff;
