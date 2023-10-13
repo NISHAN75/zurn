@@ -76,7 +76,7 @@ water section area design
   font-size: 35px;
   font-weight: 500;
   color: #11305A;
-  margin-bottom: 20px;
+  margin-bottom: 13px;
 }
 /* pageinition design */
 .page-link {
@@ -107,6 +107,10 @@ water section area design
 .blog-details-content h5 {
   font-size: 28px;
   color: #11305A;
+}
+.blog-info img {
+  width: 100%;
+  height: auto;
 }
 .blog-inner-info h6 {
   font-size: 28px;

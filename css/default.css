@@ -3,6 +3,9 @@
 .section-padding{
     padding: 145px 0;
 }
+.section-padding-sm{
+    padding: 127px 0;
+}
 .cta-padding{
     padding: 68px 0;
 }

@@ -116,6 +116,10 @@ li.corresponding-item:hover .li-icon img {
   border-radius: 150px 150px 0 0;
   padding: 117px 0;
 }
+.album-content img {
+  width: 100%;
+  height: auto;
+}
 .commercialPlumbing-img {
   min-width: 602px;
   min-height: 554px;
