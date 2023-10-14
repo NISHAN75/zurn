@@ -96,12 +96,12 @@ body {
   margin: 0;
   padding: 0;
   color: #11305A;
+  scroll-behavior: smooth
 }
 
 /* base css */
 .container {
   max-width: 1441px;
-  padding: 0;
 }
 .container-fluid {
   max-width: full;
@@ -167,7 +167,7 @@ header area design end
 .header-area {
   position: absolute;
   z-index: 5;
-  width: 100%;
+  min-width: 100%;
   margin-top: 57px;
 }
 
@@ -186,8 +186,8 @@ header area design end
   opacity: 0.5;
 }
 .navbar-brand img {
-  max-width: 215px;
-  height: 105px;
+  min-width: 215px;
+  min-height: 105px;
 }
 .navbar-nav {
   margin-left: 63px;
@@ -350,12 +350,15 @@ header area design end
   font-size: 20px;
   font-weight: 700;
   background: transparent;
-  border: 3px solid #fff;
-  padding: 20px 50px;
+  border: 2px solid #fff;
+  padding: 24px 22px 21px 22px;
   border-radius: 36px;
   color: #fff;
   transition: 0.3s;
-  
+  min-width: 230px;
+  min-height: 72px;
+  display: inline-block;
+  text-align: center;
 }
 .btn-three {
   display: inline-block;
@@ -438,7 +441,7 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
   margin-bottom: 9px;
 }
 .banner-info p {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 /* banner area design end */
 
@@ -560,10 +563,10 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
   background: #F4F4F4;
 }
 .about-para {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   color: #11305A;
-  line-height: 65px;
+  line-height: 68px;
 }
 .service-content .inner-caption  , .service-content p{
   color: #fff;
@@ -928,5 +931,6 @@ a.nav-link.active.dropdown-main-manu:hover .dropdown-page li {
   font-weight: 700;
   color: #fff;
 }
+
 
 /* contact-area end */
