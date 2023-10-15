@@ -4,9 +4,7 @@
     .section-padding {
         padding: 100px 0;
     }
-    .corresponding-area.corresponding-bg.correspond-2 .row .col-lg-6:last-child {
-        display: none;
-    }
+   
     /* =======================
     index section
     ========================== */
@@ -96,6 +94,11 @@ about us
 }
 /* Medium Layout: 992 to 1200px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .li-name {
+        font-size: 24px;
+        padding-left: 20px;
+        
+    }
     body {
         font-size: 14px;
         line-height: 30px;  
@@ -122,24 +125,30 @@ about us
       }
       .w-one {
         min-width: 100%;
-        min-height: 491px;
+        
       }
       .w-two {
         min-width: 100%;
-        min-height: 491px;
+       
       }
       .w-three{
         min-width: 100%;
-        min-height: 568px;
+       
       }
       .w-four{
         min-width: 100%;
-        min-height: 491px;
       }
+      .story-men-bg {
+        position: absolute;
+        left: 40px;
+        top: 0;
+        height: 100%;
+        width: 70%;
+    }
 
       
 .about-inner-bg-1::after {
-    max-width: 100%;  
+    min-width: 100%;  
   }
   .about-inner-bg-2::after {
     max-width: 100%;
@@ -244,6 +253,10 @@ about us
         font-size: 13px;
         line-height: 30px;  
       }
+
+      .about-inner-bg-3 {
+        margin-top: 40px;
+    }
       .small-caption {
         font-size: 14px;
     }
@@ -420,6 +433,16 @@ about us
         color: #fff;
         padding: 0 0;
     }
+     .corresponding-area .row .col-lg-6:last-child ,  .corresponding-area.corresponding-bg.correspond-2 .row .col-lg-6:last-child {
+        display: none;
+
+    }
+    .section-padding-sm {
+        padding: 50px 0;
+    }
+    .styor-area .row:nth-child(2) , .styor-area .row:nth-child(4) {
+        flex-direction: column-reverse;
+    }
     section.corresponding-area.corresponding-bg.correspond-2 .f-right {
         display: none;
     }
@@ -435,6 +458,9 @@ about us
     body {
         line-height: 30px;  
       }
+      .footer-area {
+        padding-bottom: 25px;
+    }
       p{
         font-size: 15px;
       }
@@ -507,6 +533,10 @@ about us
 ul.p-list-2 {
     margin-left: 0;
     margin-top: 35px;
+}
+.water-heaters-area ul.p-list-2{
+    margin-left: 0;
+    margin-top: 0;
 }
 .over-view-heading {
     font-size: 20px;
@@ -792,7 +822,7 @@ section.about-info.section-padding.w-btn-2 {
     
 }
 .section-padding {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .footer-contact-number {
     font-size: 30px;
@@ -886,7 +916,28 @@ section.about-info.section-padding.w-btn-2 {
 .accordion-body.inner-para {
     font-size: 15px;
 }
-
+.about-inner-bg-3 {
+    margin-top: 40px;
+}
+section.blog-details.section-padding {
+    padding: 0;
+}
+.small-caption-details {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.s-link {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.footer-area {
+    padding-bottom: 25px;
+}
+.zurn-blog-padding{
+    padding: 40px 0;
+}
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 320px) {
@@ -896,8 +947,21 @@ section.about-info.section-padding.w-btn-2 {
       .corresponding-list {
         max-width: 100%;
     }
+    .about-inner-bg-3 {
+        margin-top: 40px;
+    }
     section.about-info.section-padding.w-btn-2 {
         padding-top: 0;
+    }
+    .small-caption-details {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .s-link {
+        font-size: 15px;
+        color: #fff;
+        margin-left: 10px;
+        transition: 0.3s;
     }
       p {
         font-size: 8px;
@@ -924,6 +988,9 @@ section.about-info.section-padding.w-btn-2 {
     }
     .footer-subscibe .small-caption {
         font-size: 14px;
+    }
+    section.blog-details.section-padding.promotions-area {
+        padding-bottom: 40px;
     }
       .small-caption {
         font-size: 12px;
@@ -1011,7 +1078,7 @@ section.about-info.section-padding.w-btn-2 {
     
 }
 .section-padding {
-    padding: 100px 0;
+    padding: 30px 0;
 }
 .footer-contact-number {
     font-size: 30px;
@@ -1081,5 +1148,17 @@ section.about-info.section-padding.w-btn-2 {
 }
 .accordion-body.inner-para {
     font-size: 15px;
+}
+section.blog-details.section-padding {
+    padding: 0;
+}
+.footer-area {
+    padding-bottom: 25px;
+}
+.p-list li, .p-list-2 li, .p-list-3 li, .p-heading {
+    font-size: 15px;
+}
+.zurn-blog-padding{
+    padding: 20px 0;
 }
 }
