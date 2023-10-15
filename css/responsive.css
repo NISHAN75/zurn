@@ -938,6 +938,10 @@ section.blog-details.section-padding {
 .zurn-blog-padding{
     padding: 40px 0;
 }
+.corresponding-item:hover .li-name {
+
+    padding-left: 30px;
+}
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 320px) {
@@ -1160,5 +1164,8 @@ section.blog-details.section-padding {
 }
 .zurn-blog-padding{
     padding: 20px 0;
+}
+.corresponding-item:hover .li-name {
+    padding-left: 20px;
 }
 }
